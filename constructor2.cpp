@@ -30,7 +30,7 @@ Demo(const Demo&d){
 }
 };
 int main(){
-   { Demo s1;}
-  {  Demo s2("umang ",50000);
-    Demo s3=s2;}
+   Demo s1;
+   Demo s2("umang ",50000);
+    Demo s3=s2;//copy constructor
 }
